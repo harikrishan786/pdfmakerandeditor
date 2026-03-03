@@ -1,0 +1,32 @@
+name: govista_pdf
+description: GoVista PDF - Convert, Edit, Merge & OCR PDFs
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  image_picker: ^1.1.2
+  file_picker: ^8.1.6
+  permission_handler: ^11.3.1
+  share_plus: ^10.1.4
+  pdf: ^3.11.1
+  path_provider: ^2.1.4
+  open_file: ^3.5.10
+  image: ^4.3.0
+  syncfusion_flutter_pdf: ^27.2.5
+  syncfusion_flutter_pdfviewer: ^27.2.5
+  google_mlkit_text_recognition: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
